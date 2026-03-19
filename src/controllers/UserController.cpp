@@ -1,0 +1,1 @@
+# src/controllers/UserController.cpp#include "UserController.hpp"#include "utils/Logger.hpp"UserController::UserController() {}void UserController::createUser(const std::string& name) {    Logger::log("Creating user: " + name);    userService.createUser(name);}
