@@ -1,0 +1,1 @@
+# src/adapters/DatabaseAdapter.cpp#include "DatabaseAdapter.hpp"#include "utils/Logger.hpp"DatabaseAdapter::DatabaseAdapter() {}void DatabaseAdapter::saveUser(const std::string& name) { Logger::log("Saving user to database: " + name); }
