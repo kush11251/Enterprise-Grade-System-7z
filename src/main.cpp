@@ -1,0 +1,1 @@
+# src/main.cpp#include "controllers/UserController.hpp"#include "utils/Logger.hpp"int main() {    Logger::log("Main started");    UserController userController;    userController.createUser("John Doe");    Logger::log("Main ended");    return 0;}
