@@ -1,0 +1,1 @@
+# src/controllers/UserController.hpp#ifndef USERCONTROLLER_HPP#define USERCONTROLLER_HPP#include "services/UserService.hpp"class UserController {public:    UserController();    void createUser(const std::string& name);private:    UserService userService;};#endif  // USERCONTROLLER_HPP
