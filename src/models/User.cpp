@@ -1,0 +1,1 @@
+# src/models/User.cpp#include "User.hpp"User::User() : name("") {}void User::setName(const std::string& name) { this->name = name; }std::string User::getName() const { return name; }
