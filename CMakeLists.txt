@@ -1,0 +1,1 @@
+# CMakeLists.txtcmake_minimum_required(VERSION 3.10)project(Enterprise-Grade-System)set(SOURCE_FILES src/main.cpp src/controllers/UserController.cpp src/services/UserService.cpp src/models/User.cpp src/utils/Logger.cpp src/adapters/DatabaseAdapter.cpp src/adapters/NetworkAdapter.cpp)add_executable(${PROJECT_NAME} ${SOURCE_FILES})
