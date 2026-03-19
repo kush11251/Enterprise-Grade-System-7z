@@ -1,0 +1,1 @@
+# src/models/User.hpp#ifndef USER_HPP#define USER_HPP#include <string>class User {public:    User();    void setName(const std::string& name);    std::string getName() const;private:    std::string name;};#endif  // USER_HPP
