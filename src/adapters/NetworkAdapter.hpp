@@ -1,0 +1,1 @@
+# src/adapters/NetworkAdapter.hpp#ifndef NETWORKADAPTER_HPP#define NETWORKADAPTER_HPPclass NetworkAdapter {public:    NetworkAdapter();    void sendUser(const std::string& name);};#endif  // NETWORKADAPTER_HPP
