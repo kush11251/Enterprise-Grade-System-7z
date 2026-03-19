@@ -1,0 +1,1 @@
+# src/adapters/DatabaseAdapter.hpp#ifndef DATABASEADAPTER_HPP#define DATABASEADAPTER_HPPclass DatabaseAdapter {public:    DatabaseAdapter();    void saveUser(const std::string& name);};#endif  // DATABASEADAPTER_HPP
