@@ -1,0 +1,1 @@
+# src/adapters/NetworkAdapter.cpp#include "NetworkAdapter.hpp"#include "utils/Logger.hpp"NetworkAdapter::NetworkAdapter() {}void NetworkAdapter::sendUser(const std::string& name) { Logger::log("Sending user over network: " + name); }
