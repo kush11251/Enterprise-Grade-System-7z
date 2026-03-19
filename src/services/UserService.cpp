@@ -1,0 +1,1 @@
+# src/services/UserService.cpp#include "UserService.hpp"#include "utils/Logger.hpp"UserService::UserService() {}void UserService::createUser(const std::string& name) {    Logger::log("User service: Creating user: " + name);    user.setName(name);}
