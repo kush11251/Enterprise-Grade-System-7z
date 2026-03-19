@@ -1,0 +1,1 @@
+# src/services/UserService.hpp#ifndef USERSERVICE_HPP#define USERSERVICE_HPP#include "models/User.hpp"class UserService {public:    UserService();    void createUser(const std::string& name);private:    User user;};#endif  // USERSERVICE_HPP
